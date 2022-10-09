@@ -1,0 +1,92 @@
+body{
+    background-color: #6d4c41;
+}
+
+#main{
+    width: 270px;
+    height: 300px;
+    margin:0 auto;
+}
+#main .h1{
+    margin: auto;
+}
+
+#numbers{
+background-color: #180f0c;
+width: 200px;
+height: 248px;
+float: left;
+
+}
+
+#numbers .number{
+width: 53px;
+height: 53px;
+border-radius: 20px;
+border: 1px solid #180f0c;
+margin: 3px;
+
+}
+
+#operators{
+background-color: #8a766f;
+width: 70px;
+height: 248px;
+float: right;
+
+
+}
+
+#operators .operator {
+width: 53px;
+height: 53px;
+border-radius: 20px;
+border: 1px solid #180f0c;
+margin: 3px;
+
+}
+
+#resultop{
+background-color: #8a766f;
+width: 270px;
+height: 60px;
+margin: auto;
+
+}
+
+#resultop .resulto {
+    width: 53px;
+    height: 53px;
+    border-radius: 20px;
+    border: 1px solid #180f0c;
+    margin: 3px;    
+
+}
+
+#equation{
+    width: 190px !important;
+}
+
+.clear{
+    clear: both ;
+
+
+}
+
+#result{
+    background-color: #dbbbae;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#resultin{
+    background-color: aliceblue;
+    display: block;
+    width: 250px;
+    height: 35px;
+    margin: 10px;
+    color: #000;
+    font-size: 30px;
+}
